@@ -29,7 +29,7 @@ public class learnArraylist {
       System.out.println(list.remove(0));
       System.out.println("list after removing list: " + list);
       System.out.println("remove particular element from list");
-      List<Integer> list3 = new ArrayList();
+      List<Integer> list3 = new ArrayList<>();
       list3.add(6);
       list3.add(2);
       list3.add(1);
@@ -54,7 +54,7 @@ public class learnArraylist {
       System.out.println(list4.contains(69));
       System.out.println();
       System.out.println("Interation concept: ");
-      List<Integer> list5 = new ArrayList();
+      List<Integer> list5 = new ArrayList<>();
       list5.add(45);
       list5.add(89);
       list5.add(22);
